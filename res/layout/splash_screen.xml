@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backfuerte"
+    >
+    <ImageView 
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Con esta aplicación podrás analizar diferentes fuentes de noticias o webs que tu elijas de acuerdo a las ocurrencias de palabras clave. También podrás comparar las fuentes que hablan de los mismos temas y visualizar datos semánticos de la url."
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        />
+    
+    <TextView 
+        android:id="@+id/splashstatus"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargando... espera un momento por favor"
+        android:layout_alignParentBottom="true"
+        android:textColor="#444444"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

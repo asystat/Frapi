@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="18dp"
+    >
+<RelativeLayout 
+    android:id="@+id/s_sharelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    >
+    
+    <ImageView 
+        android:id="@+id/s_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share"
+     	android:layout_alignParentTop="true"
+     	android:layout_alignParentRight="true"
+        />
+    
+    <TextView
+        android:id="@+id/s_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+    
+    <TextView
+        android:id="@+id/s_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://www.laurl.com"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/s_name"
+        android:textSize="13sp"
+        />
+    
+            <TextView
+        android:id="@+id/titleApariciones"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOP 5 APARICIONES"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/s_url"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#666666"
+        />
+    
+    <TextView 
+        android:id="@+id/s_topfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Internacional\n- Gaza\n- Deportes\n- Obama\n- Política"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/titleApariciones"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#0076C4"
+        
+        />
+    
+    <TextView 
+        android:id="@+id/s_topfive_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x5\nx4\nx2\nx2\nx1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titleApariciones"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#0076C4"
+        />
+    
+        <TextView
+            android:id="@+id/titleNear"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERIÓDICOS MÁS PARECIDOS"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/s_topfive"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#666666"
+        />
+        
+            <TextView 
+        android:layout_marginTop="4dp"
+        android:id="@+id/s_near"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- El País\n-La Gaceta"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/titleNear"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#0076C4"
+        />
+            
+        <TextView 
+        android:layout_marginTop="4dp"
+        android:id="@+id/s_near_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.5\n1.7"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titleNear"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#0076C4"
+        />
+    
+        <Button
+            android:layout_marginTop="8dp"
+            android:id="@+id/s_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Mas detalles"
+            android:layout_below="@+id/s_near"
+            />
+    
+    
+    
+
+</RelativeLayout>
+</FrameLayout>
